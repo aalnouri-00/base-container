@@ -61,7 +61,7 @@
     ENV DEBIAN_FRONTEND=noninteractive
 
     ENV APT_INSTALL="apt-get install -y --no-install-recommends"
-    ENV PIP_INSTALL="python3 -m pip --no-cache-dir install --upgrade"
+    ENV PIP_INSTALL="python3 -m pip --no-cache-dir install --upgrade --root-user-action=ignore"
     ENV GIT_CLONE="git clone --depth 10"
 
 

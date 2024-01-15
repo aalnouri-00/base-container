@@ -170,6 +170,13 @@
 
     RUN $PIP_INSTALL torch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 && \
         
+# ==================================================================
+# JupyterLab
+# ------------------------------------------------------------------
+
+    # Based on https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html#pip
+
+    $PIP_INSTALL jupyterlab==3.4.6 && \
 
 # ==================================================================
 # Additional Python Packages
@@ -203,7 +210,7 @@
         opencv-python \
         sentence-transformers \
         wandb \
-        awscli \
+        awscli 
 
 
 # ==================================================================

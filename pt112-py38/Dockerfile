@@ -124,7 +124,7 @@
         python3.8 \
         python3.8-dev \
         python3.8-venv \
-        python8-distutils-extra
+        python3-distutils-extra
 
     # Add symlink so python and python3 commands use same python3.9 executable
     RUN ln -s /usr/bin/python3.8 /usr/local/bin/python3 && \
